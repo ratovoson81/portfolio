@@ -254,6 +254,11 @@ hr {
 
 /* Serivces */
 
+.services {
+  background-color: #eee;
+  padding: 60px 0;
+}
+
 .services .icon-row {
   padding: 30px 0;
 }
@@ -348,6 +353,11 @@ textarea {
   cursor: pointer;
   background-color: #fff;
   color: #000;
+}
+
+.section-silver {
+  background-color: #eee;
+  padding: 5rem 0;
 }
 
 /* footer */
