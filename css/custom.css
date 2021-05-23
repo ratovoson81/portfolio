@@ -67,3 +67,29 @@ ul {
   list-style: none;
   padding: 0px;
 }
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+.social-icon li a {
+  border-radius: 50%;
+  color: #606060;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.social-icon li a:hover {
+  color: #d43f52;
+}
+footer hr {
+  width: 100px;
+  height: 1px;
+  background-color: #000;
+}

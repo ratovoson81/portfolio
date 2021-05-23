@@ -130,11 +130,6 @@ button.light:focus {
   padding: 4rem;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid #eee;
-}
-
 .section-title {
   margin-bottom: 70px;
   text-transform: uppercase;
