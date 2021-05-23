@@ -180,7 +180,6 @@ button.light:focus {
   opacity: 0.9;
 }
 .hero h1 {
-  margin: 0;
   opacity: 0.9;
 }
 
@@ -190,8 +189,7 @@ button.light:focus {
   width: 100%;
 }
 
-.hero-text p {
-  margin: 0;
+.hero-text h4 {
   opacity: 0.7;
 }
 

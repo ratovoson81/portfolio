@@ -93,3 +93,14 @@ footer hr {
   height: 1px;
   background-color: #000;
 }
+.title {
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  opacity: 0.9;
+}
+.nav {
+  margin-top: 3.125em;
+  margin-right: 3.125em;
+}
