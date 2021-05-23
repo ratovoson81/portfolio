@@ -16,7 +16,7 @@
 <body>
     <header class="fade-in">
         <div class="navigation-bar flex middle-xs">
-            <img src="img/logo.svg" class="logo">
+            <img src="img/logo.svg" class="logo full-img">
             <nav class="end-xs">
                 <ul>
                     <li><a href="#about-us">About us</a></li>
@@ -42,7 +42,7 @@
             <div class="container">
                 <div class="row ">                    
                     <div class="col-md-4">
-                        <img src="img/devices.png" height="50"><br/>
+                        <img class="full-img" src="img/devices.png" height="50"><br/>
                     </div>
                     <div class="col-md-1"></div>
                     <div class="col-md-7">
@@ -56,8 +56,8 @@
         </section>
         <section class="services" id="services">
             <div class="container">
-                <div class="row margin-bottom-small">
-                    <div class="col-md-12 center-xs">
+                <div class="row center-xs margin-bottom-small">
+                    <div class="col-md-12">
                         <h2 class="section-title">Services</h2>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                     <div class="col-md-5">
                         <div class="row">
                             <div class="col-sm-2">
-                                <img src="img/front.svg" class="icon"><br/>
+                                <img src="img/front.svg" class="icon full-img"><br/>
                             </div>
                             <div class="col-sm-10">
                                 <h4>Développement Frontend</h4>
@@ -79,7 +79,7 @@
                     <div class="col-md-5">
                         <div class="row">
                             <div class="col-sm-2">
-                                <img src="img/backend.svg" class="icon"><br/>
+                                <img src="img/backend.svg" class="icon full-img"><br/>
                             </div>
                             <div class="col-sm-10">
                                 <h4>Développement Backend</h4>
@@ -96,7 +96,7 @@
                     <div class="col-md-5">
                         <div class="row">
                             <div class="col-sm-2">
-                                <img src="img/mobile.svg" class="icon"><br/>
+                                <img src="img/mobile.svg" class="icon full-img"><br/>
                             </div>
                             <div class="col-sm-10">
                                 <h4>Développement Frontend</h4>
@@ -110,7 +110,7 @@
                     <div class="col-md-5">
                         <div class="row">
                             <div class="col-sm-2">
-                                <img src="img/system.svg" class="icon"><br/>
+                                <img src="img/system.svg" class="icon full-img"><br/>
                             </div>
                             <div class="col-sm-10">
                                 <h4>Administration Système et Réseaux</h4>
@@ -127,8 +127,8 @@
 
         <section class="skill-bars" id="skills">
             <div class="container">
-                <div class="row margin-bottom-small">
-                    <div class="col-md-12 center-xs">
+                <div class="row center-xs margin-bottom-small">
+                    <div class="col-md-12">
                         <h2 class="section-title">Compétences</h2>
                     </div>
                 </div>
@@ -216,12 +216,12 @@
                 <div class=" row team center-xs ">
                     <div class="col-md-4 col-sm-12">
                         <div class="hover-outer-box">
-                            <img src="img/Romi-Kobe.jpg">
+                            <img src="img/Romi-Kobe.jpg" class="full-img">
                             <div class="hover-inner-box">
                                 <div class="hover-content">
                                     <h3>Romi Kobe</h3>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                    <a href="#!" target="blank" rel="noopener"><img src="img/facebook-icon.svg" class="team-icon"></a> <a href="#!" target="blank" rel="noopener"><img src="img/twitter-icon.svg" class="team-icon"></a>
+                                    <a href="#!" target="blank" rel="noopener"><img src="img/facebook-icon.svg" class="team-icon full-img"></a> <a href="#!" target="blank" rel="noopener"><img src="img/twitter-icon.svg" class="team-icon full-img"></a>
                                 </div>
                             </div>
                         </div>
@@ -229,12 +229,12 @@
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <div class="hover-outer-box">
-                            <img src="img/Isaac-Desideria.jpg">
+                            <img src="img/Isaac-Desideria.jpg" class="full-img">
                             <div class="hover-inner-box">
                                 <div class="hover-content">
                                     <h3>Isaac Desideria</h3>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                    <a href="#!" target="blank" rel="noopener"><img src="img/facebook-icon.svg" class="team-icon"></a> <a href="#!" target="blank" rel="noopener"><img src="img/twitter-icon.svg" class="team-icon"></a>
+                                    <a href="#!" target="blank" rel="noopener"><img src="img/facebook-icon.svg" class="team-icon full-img"></a> <a href="#!" target="blank" rel="noopener"><img src="img/twitter-icon.svg" class="team-icon full-img"></a>
                                 </div>
                             </div>
                         </div>
@@ -245,33 +245,56 @@
             </section>
             <section class="contact" id="contact">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md center-xs">
+                    <div class="row center-xs">
+                        <div class="col-md">
                             <h2 class="section-title">Contact</h2>
                         </div>
                     </div>
-                    <div class="row margin-bottom-small center-xs">
-                        <div class="col-md">Call Us<br/>+49 561 0000 0000</div>
-                        <div class="col-md">Address<br/>Streetname 12</div>
-                        <div class="col-md">Email<br/>kontakt@lautenschlager.de</div>
-                    </div>
-                    <form action="">
-                        <div class="row margin-bottom-small center-xs">
-
-                            <div class="col-md padding-small">
-                                <div class="row">
-                                    <div class="col-md">
-                                        <input placeholder="Enter Your Name" type="text" name="" value="" class="margin-bottom-small">
-                                        <input placeholder="Enter Your Email" type="email" name=""  value="">
+                    <div class="row margin-bottom-small">
+                        <div class="col-md padding-small">
+                                <div class="col">
+                                    <div class="row margin-bottom">
+                                        <div class="col-sm-6 end-xs">                                        
+                                            <img src="img/telephone.svg" height="40" >
+                                        </div>
+                                        <div class="col-sm-6 start-xs" style="margin: auto;" >
+                                            <span class="text-transparent">Phone</span>
+                                            <br/>
+                                            <span>+261 32 83 606 09</span>
+                                        </div>
+                                    </div>
+                                    <div class="row margin-bottom">
+                                        <div class="col-sm-6 end-xs">                                        
+                                            <img src="img/map.svg" height="40" >
+                                        </div>
+                                        <div class="col-sm-6 start-xs" style="margin: auto;" >
+                                            <span class="text-transparent">Address</span>
+                                            <br/>
+                                            <span>Antananarivo, Madagascar</span>
+                                        </div>
+                                    </div>
+                                    <div class="row margin-bottom">
+                                        <div class="col-sm-6 end-xs">                                        
+                                            <img src="img/mail.svg" height="40" >
+                                        </div>
+                                        <div class="col-sm-6 start-xs" style="margin: auto;" >
+                                            <span class="text-transparent">Mail</span>
+                                            <br/>
+                                            <span>ratovoson81@gmail.com</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md padding-small">
+                        </div>
+                        <div class="col-md padding-small">
+                            <form action="">
+                                <input placeholder="Enter Your Name" type="text" name="" value="" class="margin-bottom-small">
+                                <input placeholder="Enter Your Email" type="email" name=""  value="" class="margin-bottom-small">
+                                <input placeholder="Object" type="email" name=""  value="">
                                 <textarea placeholder="Your Message" name="" rows="8" class="margin-bottom-small"></textarea>
                                 <input type="submit" value="Submit">
-                            </div>
+                            </form>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </section>
         </main>
@@ -280,7 +303,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md center-xs">
-                    <img src="img/logo-footer.svg" class="margin-bottom" style="max-width: 150px;">
+                    <img src="img/logo-footer.svg" class="margin-bottom full-img" style="max-width: 150px;">
                 </div>
             </div>
             <div class="row margin-bottom-small">
@@ -307,10 +330,9 @@
                     </svg></a></p>
                     <p>Template created for free commercial use by Andreas Lautenschlager.</p>
                     <p>More free downloads under <a href="https://lautenschlager.de" target="_blank" rel="noopener">lautenschlager.de</a></p>
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0; max-width: 60px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img class="full-img" alt="Creative Commons License" style="border-width:0; max-width: 60px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
                     <p>I thank following people for their contribution: <a href="credits.txt">Credits</a>.</p>
                 </div>
-
             </div>
         </div>
     </footer>
