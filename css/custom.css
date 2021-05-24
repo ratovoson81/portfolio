@@ -31,13 +31,13 @@
 .skill-bar-holder {
   height: 12px;
   width: 100%;
-  background: rgba(1, 162, 166, 0.1);
+  background: rgba(47, 41, 51, 0.1);
   padding: 0px;
   position: relative;
 }
 .skill-capacity {
   height: 12px;
-  background: #01a2a6;
+  background: #2e8b57;
   padding: 0px !important;
   left: 0px;
   position: absolute;
