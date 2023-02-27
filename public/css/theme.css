@@ -135,6 +135,10 @@ button.light:focus {
   text-transform: uppercase;
 }
 
+.section-about {
+  padding-top: 50px;
+}
+
 .flex {
   display: flex;
 }
@@ -399,9 +403,9 @@ footer li a {
   .navigation-bar .logo {
     margin: 0 auto;
   }
-  .navigation-bar nav {
+  /* .navigation-bar nav {
     display: none;
-  }
+  } */
 
   .row {
     margin: 0 auto;
@@ -411,6 +415,12 @@ footer li a {
 
   .cta .display {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .navigation-bar nav {
+    display: none;
   }
 }
 
@@ -435,4 +445,77 @@ footer li a {
 .fade-in {
   -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.timeline-event:first-child {
+  margin-top: 64px;
+}
+.timeline-event {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 64px;
+  margin-bottom: 32px;
+}
+.timeline-event:nth-child(even) .col-sm-6:first-child {
+  text-align: right;
+}
+.timeline-event .col-sm-6:first-child {
+  padding-right: 54px;
+}
+.timeline-event .col-sm-6:last-child {
+  padding-left: 54px;
+}
+.timeline-event:nth-child(odd) .col-sm-6:first-child {
+  padding-left: 54px;
+  padding-right: 15px;
+}
+.timeline-event:nth-child(odd) .col-sm-6:last-child {
+  padding-right: 54px;
+  text-align: right;
+  padding-left: 15px;
+}
+.timeline-event .middle {
+  position: absolute;
+  left: 50%;
+  width: 60px;
+  margin-left: -30px;
+  text-align: center;
+  height: 100%;
+}
+.timeline-event .middle i {
+  font-size: 40px;
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #145a32;
+}
+.timeline-event .middle .vertical-line {
+  top: 60px;
+  width: 2px;
+  height: 100%;
+  display: inline-block;
+  background: #145a32;
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+}
+.timeline-event h2 {
+  margin-bottom: 8px;
+}
+@media all and (max-width: 767px) {
+  .timeline-event {
+    padding-bottom: 0;
+  }
+  .timeline-event .middle {
+    display: none;
+  }
+  .timeline-event .col-sm-6 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: left !important;
+  }
+}
+
+.glyphicon-map-marker:before {
+  content: "\e062";
 }

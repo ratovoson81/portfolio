@@ -1,0 +1,106 @@
+.about-imag img {
+  border: 2px solid #000;
+  border-radius: 100%;
+}
+.about-imag img {
+  width: 150px;
+  height: 150px;
+}
+.skill-bars .lead:last-child {
+  margin-bottom: 64px !important;
+}
+.skill-bars h3 {
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+.skills-ul {
+  overflow: hidden;
+}
+.skills-ul span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.skills-ul li {
+  margin-bottom: 16px;
+}
+.skills-ul li:last-child {
+  margin-bottom: 0px;
+}
+.skill-bar-holder {
+  height: 12px;
+  width: 100%;
+  background: rgba(47, 41, 51, 0.1);
+  padding: 0px;
+  position: relative;
+}
+.skill-capacity {
+  height: 12px;
+  background: #145a32;
+  padding: 0px !important;
+  left: 0px;
+  position: absolute;
+}
+.skills-left {
+  text-align: right;
+}
+.skills-left .skill-bar-holder {
+  background: rgba(47, 41, 51, 0.1);
+}
+.skills-left .skill-capacity {
+  background: #2f2933;
+  left: auto;
+  right: 0px;
+}
+@media screen and (max-width: 990px) {
+  .skills-left {
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  .skills-left .skill-capacity {
+    right: auto;
+    left: 3px;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+.social-icon li a {
+  border-radius: 50%;
+  color: #606060;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.social-icon li a:hover {
+  color: #d43f52;
+}
+footer hr {
+  width: 100px;
+  height: 1px;
+  background-color: #000;
+}
+.title {
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  opacity: 0.9;
+}
+.nav {
+  margin-top: 3.125em;
+  margin-right: 3.125em;
+}
