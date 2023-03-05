@@ -104,3 +104,12 @@ footer hr {
   margin-top: 3.125em;
   margin-right: 3.125em;
 }
+.button-pdf {
+  text-decoration: none;
+  color: white;
+}
+.button-pdf:hover {
+  color: white;
+  border-color: black;
+  background-color: black;
+}
